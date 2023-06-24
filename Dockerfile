@@ -8,9 +8,8 @@ WORKDIR /app
 COPY ["package.json", "package-lock.json*", "./"]
 
 RUN npm install --production
-
+RUN npm start
 COPY . .
 
 EXPOSE 8083
 
-CMD ["npm start"]
