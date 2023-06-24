@@ -13,3 +13,4 @@ COPY . .
 
 EXPOSE 8083
 
+CMD ["npm start ./server.js"]
