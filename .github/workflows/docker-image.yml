@@ -42,4 +42,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_USER }}/pi-clima:$(date +%s)
+          tags: ${{ secrets.DOCKER_USER }}/pi-clima:latest
